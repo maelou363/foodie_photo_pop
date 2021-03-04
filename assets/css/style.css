@@ -1,11 +1,9 @@
-#logo{
-    background-image: url("assets/images/FPPSignature.png");
-    float: left;
-    font-size: 280%;
-    margin-left: 0px;
+nav logo{
+    width: 100px;
+    height: auto;
 }
 
-nav .nav-wrapper {
+/* nav {
     position: relative;
     height: 100%;
-}
+} */
