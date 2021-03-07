@@ -1,18 +1,27 @@
+body {
+    background-color: gray;
+}
+
+
+/* ------------------------- HEADER --------------------------- */
 .logo {
     width: 200px;
 }
 
-body {
-    background-color: tan;
+a.nav-link {
+    float: right;
 }
+
+/* ------------------------- FOOTER --------------------------- */
 
 footer {
     background-color: white;
-    height: 150px;
+    height: 88px;
 }
 
 .social-networks{
-    text-align: center;
+    text-align: right;
+    padding-right: 15px;
 
 }
 
@@ -21,8 +30,35 @@ footer {
 }
 
 .social-networks i{
-    font-size: 160%;
+    font-size: 120%;
     margin: 1%;
-    padding: 2%;
+    padding: 1px;
     color: #3a3a3a;
+}
+
+footer ul {
+    width: 50%;
+    float: right;
+    margin-top: 15px;
+}
+
+footer p {
+    font-size: 12px;
+    display: inline;
+    text-align: left;
+    /* margin-top: 20px; */
+    padding: 5px;
+}
+
+.copyright {
+    margin-top: 50px;
+    text-align: right;
+    color: #d9dbdb;
+    text-decoration-color: none;
+    text-decoration-line: none;
+}
+
+.copyright a {
+    text-decoration-color: red;
+    color: #d9dbdb;
 }
