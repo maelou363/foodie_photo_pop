@@ -1,5 +1,15 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
 }
 
 
@@ -48,6 +58,10 @@ footer p {
     text-align: left;
     /* margin-top: 20px; */
     padding: 5px;
+}
+
+.footer {
+    flex-shrink: 0;
 }
 
 .copyright {
