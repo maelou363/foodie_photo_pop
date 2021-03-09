@@ -22,6 +22,8 @@ a.nav-link {
     float: right;
 }
 
+/*------------------ ---Dynamic Home Tabs ___________________ */
+
 
 .tab-wrap {
     -webkit-transition: 0.3s box-shadow ease;
@@ -163,6 +165,28 @@ a.nav-link {
     background-color: #f9f9f9;
     box-shadow: 0 1px 0 #f4f4f4 inset;
   }
+
+/*------------------ Home Page Gallery ------------------------ */
+
+  #photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    background-color: black;
+    height: 100%;
+}
+
+#photo img{
+    width: 100%;
+    
+    display: block;
+
+}
+
+.gallery {
+    margin: -5;
+}
 
 
 
