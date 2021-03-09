@@ -22,7 +22,7 @@ a.nav-link {
     float: right;
 }
 
-/*------------------ ---Dynamic Home Tabs ___________________ */
+/*------------------ ---Dynamic Home Tabs ---------------------- */
 
 
 .tab-wrap {
@@ -174,18 +174,15 @@ a.nav-link {
     column-count: 4;
     column-gap: 0px;
     background-color: black;
-    height: 100%;
 }
 
 #photo img{
     width: 100%;
-    
     display: block;
-
 }
 
 .gallery {
-    margin: -5;
+    margin: -5px;
 }
 
 
