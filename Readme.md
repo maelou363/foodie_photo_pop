@@ -1,5 +1,3 @@
-https://www.cssscript.com/create-responsive-tabs-component-using-css-radio-input/
-
 # Foodie Photo Pop
 
 Foodie Photo Pop is a fictional food photography business that provides service of creating high quality 
@@ -174,11 +172,8 @@ Select the Repository from the Github Dashboard.
 * Type `git clone <paste-clone-url-here>` and press "Enter/Return" on your keyboard.
 * This will create a clone of the project for you.
 
-## Credits
 
-[Back to Top](#table-of-contents)
-
-# Credits / Acknowledgements
+## Credits / Acknowledgements
 
 
 
