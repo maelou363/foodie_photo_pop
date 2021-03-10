@@ -1,5 +1,3 @@
-https://www.cssscript.com/create-responsive-tabs-component-using-css-radio-input/
-
 # Foodie Photo Pop
 
 Foodie Photo Pop is a fictional food photography business that provides service of creating high quality 
@@ -54,36 +52,21 @@ This project is my Milestone 1 project for Code Institute.
 
 ## User Stories:
 
-_Generic (Guest/Public) User:_
-* As a Generic User, I want to be able to view the site on any device I may have, (mobile/tablet/desktop).
-* As a Generic User, I want to have the ability to view the established Accessibility Statement & Privacy Policy if any.
-* As a Generic User, I want to have the ability to play the game.
-* As a Generic User, I want to have the ability to view a leaderboard to see how I compared against others.
-* As a Generic User, I want to have the ability to navigate between pages seemlessly and easily.
-* As a Generic User, I want to have the ability to play a mobile friendly game to pass some time while on the go.
+_User:_
+* 
 
 _Developer:_
-* As a developer, I want to create fully responsive app to showcase my skills to a potential employer.
-* As a developer, I want an on-going project I can enhance and improve over time as my skills grow.
-* As a developer, I want to imporve on my existing skills using HTML/CSS/JS.
-* As a developer, I want to use new languages/tools/services to promote and compliment my exisiting knowledge and competencies.
-* As a developer, I want to create secrets and easter eggs in the project adding to the overall experience of the project to the user.
-* As a developer, I want to work comprehensively with Git/Github attributing to my overall competency of this globally used professional version controlling tool.
-* As a developer, I want to work in a team to enhance my communication skills.
-* As a developer, I want the experience of working in sprints with an impending closing deadline giving me the potential to learn proactively to problems as they arise.
+* 
 
 # Design
 
 ### 1. Font
-
-Throughout this project the below fonts are used to promote a friendly and appealing nature. Both fonts are sans serif typefaces, with a backup font of `sans-serif`, in case of any particular font not rendering as expected. They both greatly compliment each other, with "Luckiest Guy" giving a 1950s advertisement custom hand lettering feel for our headers and "Poppins" bringing a more geometric sans-serif typeface allowing for increased human readability and enhanced eye-tracking on screens.
-
 - Headings - <a href="https://fonts.google.com/specimen/Oswald?preview.text_type=custom">Oswald</a>
 - Body - <a href="https://fonts.google.com/specimen/Poppins?preview.text_type=custom">Poppins</a>
 
 ### 2. Color Scheme
 
-Our color scheme is inspired by St.Patrick's day and muted tones. Allowing for constrating elements to be defined by the user with ease and promoting good User Experience amongst the site.
+Our color scheme was created to create a little bit of colour but muted colour scheme around the photos and portfolio work to really give the photos the opportunity to shine and showcase companies work.
 
 - ![#7FB8C7](https://placehold.it/15/7FB8C7/000000?text=+) `#7FB8C7` - Primary color
 - ![#90C2BE](https://placehold.it/15/90C2BE/000000?text=+) `#90C2BE` - Secondary color
@@ -100,7 +83,7 @@ Our color scheme is inspired by St.Patrick's day and muted tones. Allowing for c
 
 ## 4. Wireframing & Proposed/Implemented Functionality per Page
 
-Wireframes for this project were created using Sketch, for small and large viewports. Each element was structurally planned out before building the project to allow us to build to a plan saving on time and potential bottlenecking via scope creep.
+Wireframes for this project were created using Affinity Design and Sketch for both mobile and desktop. Each element was structurally planned out before building the project to be sure all elements were accounted for and worked together.
 
 <details>
 <summary>Wireframes</summary>
@@ -174,11 +157,8 @@ Select the Repository from the Github Dashboard.
 * Type `git clone <paste-clone-url-here>` and press "Enter/Return" on your keyboard.
 * This will create a clone of the project for you.
 
-## Credits
 
-[Back to Top](#table-of-contents)
-
-# Credits / Acknowledgements
+## Credits / Acknowledgements
 
 
 
