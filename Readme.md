@@ -1,6 +1,6 @@
 # Foodie Photo Pop
 
-Foodie Photo Pop is a fictional food photography business that provides service of creating high quality 
+Foodie Photo Pop is a fictional food photography business that provides service of creating high quality. Well it's slightly fictional. I used to run this business a couple years ago when I hired out my photography services. :) 
 
 ---
 
@@ -37,7 +37,7 @@ Foodie Photo Pop is a fictional food photography business that provides service 
 
 ## What does it do and what does it need to fulfill?
 
-This project is my Milestone 1 project for Code Institute. 
+This project is my Milestone 1 project for Code Institute. The goal of this project was to have a landing page that a potential customer can land on and make it easy for them to view the companies work and get in contact with them. 
 
 
 ### Functionality of Project
@@ -49,6 +49,8 @@ This project is my Milestone 1 project for Code Institute.
 # User Experience:
 
 ## Main Objectives
+
+To create a seemless experience for the user. Not distracting and allow the photos to have their moment and shine.
 
 ## User Stories:
 
