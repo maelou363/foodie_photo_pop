@@ -14,7 +14,7 @@
   <body>
       <div class="content">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-light bg-white">
                 <a class="navbar-brand" href="#"><img class="logo" src="/assets/images/FPP.png"></a>
                 <button class="navbar-toggler nav" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
@@ -39,13 +39,13 @@
           <div class="tab-wrap">
 
             <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
-            <label for="tab1">about us</label>
+            <label for="tab1" id="about">about us</label>
           
             <input type="radio" id="tab2" name="tabGroup1" class="tab">
-            <label for="tab2">our services</label>
+            <label for="tab2" id="services">our services</label>
           
             <input type="radio" id="tab3" name="tabGroup1" class="tab">
-            <label for="tab3">work</label>
+            <label for="tab3" id="work">work</label>
           
             <div class="tab__content">
               <h3>High quality photography at your door</h3>
@@ -67,23 +67,20 @@
     <section id="photo">
         <img src="/assets/images/gallery/Berry Compote Recipe-4.jpg">
         <img src="/assets/images/gallery/Chocolate Biscuit Cake - Simple Kitchen Cooking-27.JPG">
-        <!-- <img src="/assets/images/gallery/Flourless Double Chocolate Chip Cookies-9.jpg"> -->
         <img src="/assets/images/gallery/Hazelnut Chocolate Bananas Bread recipe-7.jpg">
-        <!-- <img src="assets/images/gallery/Irish Scones Recipe.jpg"> -->
         <img src="assets/images/gallery/Keto 90 Second Toast - Thats Low Carb (6 of 11).jpg">
         <img src="/assets/images/gallery/Cheesecake - Simple Kitchen Cooking-24.JPG">
         <img src="/assets/images/gallery/Honey Ice Cream Recipe-3.jpg">
-        <!-- <img src="assets/images/gallery/Low Carb Pumpkin Pancakes - Thats Low Carb-10.JPG"> -->
         <img src="/assets/images/gallery/Angel Food Cupcakes with Lemon Glaze-27.JPG">
         <img src="/assets/images/gallery/IMG_5453.jpg">
-        <!-- <img src="/assets/images/gallery/Chocolate Pumpkin Cupcakes - Its Yummi-3.JPG"> -->
-      </section>
+    </section>
     </div>
-    <section class="contact-section">
+    <div class="form-floating">
+      <section class="contact-section">
         <br>
         <form class="signup-form" action="" method="post">
             
-            <h2><i class="far fa-envelope"></i>Contact Us</h2>
+            <h2>Contact Us <i class="far fa-envelope"></i></h2>
              
              <label for="fname">First Name</label>
              <input type="text" class="text-input" id="fname" name="first_name" required>
@@ -93,13 +90,14 @@
              
              <label for="email">Email Address</label>
              <input type="email" class="text-input" id="email" name="email_address" required>
-             <label for="textbox">Leave your message</label>
-             <textarea class="text-input" id="textbox" name="textbox" row="4" cols="50"></textarea>
+             <textarea style="height: 150px;" class="form-control" id="textbox" name="textbox" placeholder="Your message"></textarea>
              <fieldset>
-                <input type="submit" class="contact-button" value="contact us">
+                <input type="submit" class="contact-button" value="send us your message">
              </fieldset>
         </form>
     </section> 
+    </div>
+
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
