@@ -15,13 +15,14 @@ html, body {
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    display: inline;
+    display: flex;
     flex-direction: column;
 }
 
-.content {
+/* .content {
     flex: 1 0 auto;
-}
+} */
+
 
 
 
@@ -44,6 +45,7 @@ h1, h2, h3, h4 {
 a.nav-link {
     float: right;
 }
+
 
 /*--------------------- Dynamic Home Tabs ---------------------- */
 
@@ -342,7 +344,6 @@ footer p {
 }
 
 
-
-
+/* ------------------------- PAGES --------------------------- */
 
 
