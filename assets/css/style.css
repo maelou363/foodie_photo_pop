@@ -25,7 +25,6 @@ body {
 
 
 
-
 /* ------------------------- HEADER --------------------------- */
 
 h1, h2, h3, h4 {
@@ -75,7 +74,7 @@ a.nav-link {
   .tab__content {
     padding: 10px 10px;
     background-color: transparent;
-    position: ;
+    position: absolute;
     width: 100%;
     z-index: -1;
     opacity: 0;
@@ -86,12 +85,18 @@ a.nav-link {
 
   .tab__content h3 {
     color: #f9f9f9;
+    font-size: 35px;
+    padding: 45px 0 10px 5px;
   }
 
   .tab__content p {
     color: rgb(36, 36, 36);
+    font-size: 20px;
+    font-weight: 400;
     display: contents;
     padding-left: 50px;
+    text-align: justify;
+    text-justify: inter-word;
     
   }
 
@@ -222,10 +227,31 @@ a.nav-link {
   }
 
   .icon {
-    font-size: 20px;
+    font-size: 25px;
     width: 5%;
     margin-right: 10px;
     
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .col,
+  [class*="col-"] {
+    padding: 35px 5px 80px 40px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .col,
+    [class*="col-"] {
+      padding: 5px 5px 15px 10px;
+    }
+    .tab__content h3 {
+      color: #f9f9f9;
+      padding: 10px 0 10px 0px;
+    }
   }
 
 /*------------------ Home Page Gallery ------------------------ */
