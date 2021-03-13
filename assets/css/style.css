@@ -390,6 +390,21 @@ footer p {
 
 /* ------------------------- PAGES --------------------------- */
 
+.brands {
+ border-radius: 15px;
+ padding: 0px 5px 5px 5px;
+}
+
+
+
+.brands:hover {
+  box-shadow: 0 0 5px 110px  rgba(127, 184, 199, 0.8);
+}
+
+.brand-work {
+  margin: 0 auto;
+}
+
 
 /* ------------------------- PRIVACY POLICY --------------------------- */
 
