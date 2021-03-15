@@ -25,7 +25,6 @@ body {
 
 
 
-
 /* ------------------------- HEADER --------------------------- */
 
 h1, h2, h3, h4 {
@@ -73,7 +72,7 @@ a.nav-link {
   }
   
   .tab__content {
-    padding: 20px 25px;
+    padding: 10px 10px;
     background-color: transparent;
     position: absolute;
     width: 100%;
@@ -86,10 +85,19 @@ a.nav-link {
 
   .tab__content h3 {
     color: #f9f9f9;
+    font-size: 35px;
+    padding: 45px 0 10px 5px;
   }
 
   .tab__content p {
     color: rgb(36, 36, 36);
+    font-size: 20px;
+    font-weight: 400;
+    display: contents;
+    padding-left: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    
   }
 
   .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
@@ -208,6 +216,42 @@ a.nav-link {
   .tab + label:hover {
     background-color: #f9f9f9;
     box-shadow: 0 1px 0 #f4f4f4 inset;
+  }
+
+  td {
+    display: table-cell;
+    vertical-align: inherit;
+    width: 33.33%;
+    padding: 5px 20px 0 20px;
+    vertical-align: text-top;
+  }
+
+  .icon {
+    font-size: 25px;
+    width: 5%;
+    margin-right: 10px;
+    
+  }
+
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .col,
+  [class*="col-"] {
+    padding: 35px 5px 80px 40px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .col,
+    [class*="col-"] {
+      padding: 5px 5px 15px 10px;
+    }
+    .tab__content h3 {
+      color: #f9f9f9;
+      padding: 10px 0 10px 0px;
+    }
   }
 
 /*------------------ Home Page Gallery ------------------------ */
@@ -343,7 +387,23 @@ footer p {
 }
 
 
+
 /* ------------------------- PAGES --------------------------- */
+
+.brands {
+ border-radius: 15px;
+ padding: 0px 5px 5px 5px;
+}
+
+
+
+.brands:hover {
+  box-shadow: 0 0 5px 110px  rgba(127, 184, 199, 0.8);
+}
+
+.brand-work {
+  margin: 0 auto;
+}
 
 
 /* ------------------------- PRIVACY POLICY --------------------------- */
