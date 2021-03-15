@@ -273,6 +273,7 @@ a.nav-link {
 .contact-section {
     clear: left;
     background-color: #EEF5F7;
+    background-size: cover;
     position: relative;
 }
 
@@ -411,3 +412,23 @@ footer p {
 .privacy-title {
   padding-left: 15px;
 }
+
+
+/* ------------------------- Contact Page --------------------------- */
+.contact-page {
+  clear: left;
+  background-color: #EEF5F7;
+  background-size: cover;
+  height: 1000px;
+}
+
+.wrapper img {
+  height: 1000px;
+  width: 500px;
+}
+
+
+
+/* .wrapper {
+  text-align: center;
+} */
