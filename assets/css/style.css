@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 
@@ -268,6 +269,12 @@ a.nav-link {
     display: block;
 }
 
+@media only screen and (max-width: 600px) {
+  #photo {
+    column-count: 2;
+  }
+}
+
 /*------------------ CONTACT FORM ------------------------ */
 
 .contact-section {
@@ -396,14 +403,34 @@ footer p {
  padding: 0px 5px 5px 5px;
 }
 
-
-
-.brands:hover {
-  box-shadow: 0 0 5px 110px  rgba(127, 184, 199, 0.8);
+.gallery-brand {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  opacity: 95%;
 }
 
 .brand-work {
   margin: 0 auto;
+}
+
+#photo-brand {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+
+#photo-brand img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #photo-brand {
+    column-count: 2;
+  }
 }
 
 
@@ -419,15 +446,7 @@ footer p {
   clear: left;
   background-color: #EEF5F7;
   height: 1000px;
-}
-
-.wrapper img {
-  height: 600px;
-  width: 400px;
-  object-fit: fill;
-  padding-top: 70px;
-  padding-left: 10px;
-  float: left;
+  margin: auto;
 }
 
 .signup-page {
@@ -435,11 +454,45 @@ footer p {
   color: #252525;
   margin: auto;
   padding: 10px;
-  float: right;
 }
 
+.container {
+  border-radius: 5px;
+  padding-top: 30px;
+  background-color: #EEF5F7;
+  margin: auto;
+}
 
-
-/* .wrapper {
+.container h2 {
+  margin-top: 10px;
   text-align: center;
-} */
+  font-size: 40px;
+}
+
+.wrap {
+  background-color: #EEF5F7;
+  padding: 10px 15px 50px 15px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

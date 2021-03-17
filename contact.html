@@ -33,32 +33,30 @@
                 </div>
             </nav>
         </header>
-        <div class="wrapper">
-            <section class="contact-page">
-                <div>
-                    <img src="assets/images/contact-us.jpg">
+        <div class="wrap">
+            <div class="container">
+                <div style="text-align:center">
+                  <h2>Contact Us</h2>
+                  <p>Swing by for a cup of coffee, or leave us a message:</p>
                 </div>
-              <br>
-              <form class="signup-page" action="" method="post">
-                  
-                  <h2>Contact Us <i class="far fa-envelope"></i></h2>
-                   
-                   <label for="fname">First Name</label>
-                   <input type="text" class="text-input" id="fname" name="first_name" required>
-                  
-                   <label for="lname">Last Name</label>
-                   <input type="text" class="text-input" id="lname"  name="last_name" required>
-                   
-                   <label for="email">Email Address</label>
-                   <input type="email" class="text-input" id="email" name="email_address" required>
-                   <textarea style="height: 150px;" class="form-control" id="textbox" name="textbox" placeholder="Your message"></textarea>
-                   <fieldset>
-                      <input type="submit" class="contact-button" value="send us your message">
-                   </fieldset>
-              </form>
-            </section> 
-          </div>
-    </div>
+                <div class="row">
+                  <div class="column">
+                    <img src="assets/images/contact-us.jpg" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <form action="" method="post">
+                      <input class="text-input" type="text" id="fname" name="firstname" placeholder="First name.." required>
+                      <input class="text-input" type="text" id="lname" name="lastname" placeholder="Last name.." required>
+                      <input class="text-input" type="text" id="Email" name="email" placeholder="email to contact you back at" required>
+                      <textarea class="text-input" id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                      <input class="contact-button" type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
