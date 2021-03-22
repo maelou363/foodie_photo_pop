@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+:root {
+  --primary-color: #58A3B6;
+  --secondary-color: #3C8080;
+  --third-color: #D5977D;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +25,7 @@ body {
     font-weight: 300;
     display: flex;
     flex-direction: column;
+    padding-top: 90px;
 }
 
 .content {
@@ -85,7 +94,7 @@ a.nav-link {
   }
 
   .tab__content h3 {
-    color: #f9f9f9;
+    color: #000;
     font-size: 30px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -114,11 +123,11 @@ a.nav-link {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     text-shadow: 0 0 0;
-    background-color: rgba(127, 184, 199, 0.8);
+    background-color:var(--primary-color);
   }
 
   #about {
-    background-color: rgba(127, 184, 199, 0.8);
+    background-color: var(--primary-color);
     margin-bottom: 0;
     font-weight: 200;
     font-size: 28px;
@@ -136,11 +145,11 @@ a.nav-link {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     text-shadow: 0 0 0;
-    background-color: rgba(144, 194, 190, 0.8);
+    background-color: var(--secondary-color);
   }
 
   #services {
-    background-color:rgba(144, 194, 190, 0.8);
+    background-color: var(--secondary-color);
     margin-bottom: 0;
     font-weight: 200;
     font-size: 28px;
@@ -158,11 +167,11 @@ a.nav-link {
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     text-shadow: 0 0 0;
-    background-color:rgba(213, 151, 125, 0.7);
+    background-color: var(--third-color);
   }
 
   #work {
-    background-color: rgba(213, 151, 125, 0.7);
+    background-color: var(--third-color);
     margin-bottom: 0;
     font-weight: 200;
     font-size: 28px;
@@ -196,7 +205,7 @@ a.nav-link {
     cursor: pointer;
     display: block;
     text-decoration: none;
-    color: #333;
+    color: #000;
     -webkit-box-flex: 3;
     -webkit-flex-grow: 3;
     -ms-flex-positive: 3;
@@ -225,7 +234,7 @@ a.nav-link {
   
   .tab + label:hover {
     background-color: #f9f9f9;
-    box-shadow: 0 1px 0 #f4f4f4 inset;
+    box-shadow: 0 2px 0 #f4f4f4 inset;
   }
 
   td {
@@ -259,7 +268,7 @@ a.nav-link {
       padding: 5px 5px 15px 10px;
     }
     .tab__content h3 {
-      color: #f9f9f9;
+      color: #000;
       padding: 15px 0 10px 0px;
       font-size: 28px;
     }
@@ -297,9 +306,8 @@ a.nav-link {
 .signup-form {
     margin-top: 70px;
     color: #252525;
-    max-width: 400px;
     margin: auto;
-    width: 80%;
+    width: 70%;
     padding: 10px;
 }
 
