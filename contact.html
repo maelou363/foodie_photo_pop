@@ -45,11 +45,15 @@
                     <img src="assets/images/contact-us.jpg" style="width:100%">
                   </div>
                   <div class="column">
-                    <form action="" method="post">
-                      <input class="text-input" type="text" id="fname" name="firstname" placeholder="First name.." required>
-                      <input class="text-input" type="text" id="lname" name="lastname" placeholder="Last name.." required>
-                      <input class="text-input" type="text" id="Email" name="email" placeholder="email to contact you back at" required>
-                      <textarea class="text-input" id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <form action="">
+                      <label for="fname">First Name</label>
+                      <input class="text-input" type="text" id="fname" name="firstname" required>
+                      <label for="lname">Last Name</label>
+                      <input class="text-input" type="text" id="lname" name="lastname" required>
+                      <label for="lname">Email</label>
+                      <input class="text-input" type="text" id="Email" name="email" required>
+                      <label for="lname">Your Message:</label>
+                      <textarea class="text-input" id="subject" name="subject" placeholder="What would you like to say?" style="height:170px" required></textarea>
                       <input class="contact-button" type="submit" value="Submit">
                     </form>
                   </div>
