@@ -302,6 +302,25 @@ a.nav-link {
   }
 }
 
+.gallery {
+  background-color: var(--background-blue);
+}
+
+.portfolio-cta {
+  background-color: var(--third-color) ;
+  color: #171717;
+  font-family: Oswald;
+  letter-spacing: 5px;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-align: right;
+}
+
+.portfolio-cta:hover {
+  background-color: #F7DED3;
+  color: #171717;
+}
+
 /*------------------ CONTACT FORM ------------------------ */
 
 .contact-section {
@@ -583,3 +602,6 @@ footer p {
   background-color: #F7DED3;
   color: #171717;
 }
+
+
+
