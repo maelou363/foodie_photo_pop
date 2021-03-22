@@ -5,6 +5,7 @@
   --secondary-color: #BAD9D8;
   --third-color: #E3B8A6;
   --supplementary-dark: #7F7F7F;
+  --background-blue: #EEF5F7;
 }
 
 
@@ -477,7 +478,13 @@ footer p {
 /* ------------------------- PRIVACY POLICY --------------------------- */
 
 .privacy-title {
-  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.privacy-policy {
+  background-color: var(--background-blue);
+  padding: 50px;
+  
 }
 
 
@@ -551,6 +558,9 @@ footer p {
 
 .header-title h2 {
   padding-left: 15px;
+  padding-top: 5px;
+  font-family: Poppins;
+  letter-spacing: 5px;
 }
 
 .footer-title {
