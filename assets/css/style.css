@@ -4,6 +4,7 @@
   --primary-color: #99C9D1;
   --secondary-color: #BAD9D8;
   --third-color: #E3B8A6;
+  --supplementary-dark: #7F7F7F;
 }
 
 
@@ -25,7 +26,7 @@ body {
     font-weight: 300;
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
+    padding-top: 95px;
 }
 
 .content {
@@ -538,4 +539,27 @@ footer p {
 
 .contact-background {
   background-color: #EEF5F7;
+}
+
+/* ------------------------- Portfolio Page --------------------------- */
+
+.header-title {
+  background: var(--secondary-color);
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+.header-title h2 {
+  padding-left: 15px;
+}
+
+.footer-title {
+  background: var(--secondary-color);
+  padding: 40px 0 40px 0;
+  text-align: center;
+}
+
+.footer-title a, h2:hover {
+  text-decoration: none;
+  color: var(--supplementary-dark);
 }

@@ -70,9 +70,9 @@ _Developer:_
 
 Our color scheme was created to create a little bit of colour but muted colour scheme around the photos and portfolio work to really give the photos the opportunity to shine and showcase companies work.
 
-- ![#7FB8C7](https://placehold.it/15/7FB8C7/000000?text=+) `#7FB8C7` - Primary color
-- ![#90C2BE](https://placehold.it/15/90C2BE/000000?text=+) `#90C2BE` - Secondary color
-- ![#D5977D](https://placehold.it/15/D5977D/000000?text=+) `#D5977D` - Tertiary color
+- ![#99C9D1](https://placehold.it/15/7FB8C7/000000?text=+) `#99C9D1` - Primary color
+- ![#99C9D1](https://placehold.it/15/90C2BE/000000?text=+) `#99C9D1` - Secondary color
+- ![#E3B8A6](https://placehold.it/15/D5977D/000000?text=+) `#E3B8A6` - Tertiary color
 - ![#F7DED3](https://placehold.it/15/F7DED3/000000?text=+) `#F7DED3` - Supplementary color
 - ![#EEF5F7](https://placehold.it/15/EEF5F7/000000?text=+) `#EEF5F7` - Supplementary color 2
 - ![#7F7F7F](https://placehold.it/15/7F7F7F/000000?text=+) `#7F7F7F` - Supplementary color 2
