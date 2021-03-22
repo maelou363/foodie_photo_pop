@@ -306,6 +306,10 @@ a.nav-link {
   background-color: var(--background-blue);
 }
 
+.gallery-cta {
+  background-color: var(--third-color);
+}
+
 .portfolio-cta {
   background-color: var(--third-color) ;
   color: #171717;

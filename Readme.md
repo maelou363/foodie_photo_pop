@@ -30,14 +30,14 @@ Foodie Photo Pop is a fictional food photography business that provides service 
 ## Welcome to our Foodie Photo Pop Project
 
 <p align="center">
-    <img src="assets/images/FPPSignature.png" alt="logo">
+    <img src="assets/images/fpp-mockup.png" alt="website mockup on different devices">
 </p>
 
 ---
 
 ## What does it do and what does it need to fulfill?
 
-This project is my Milestone 1 project for Code Institute. The goal of this project was to have a landing page that a potential customer can land on and make it easy for them to view the companies work and get in contact with them. 
+This project is my Milestone 1 project for Code Institute. The goal of this project was to have a place that a potential customer can land on and make it easy for them to view the companies work and get in contact with. It's clean and 
 
 
 ### Functionality of Project
@@ -161,6 +161,7 @@ Select the Repository from the Github Dashboard.
 
 
 ## Credits / Acknowledgements
+All photos used on this website were created by either myself or my friend Katie Chase.
 
 
 
