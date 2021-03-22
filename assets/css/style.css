@@ -358,7 +358,7 @@ a.nav-link {
 
 .contact-button:hover {
   background-color: #F7DED3;
-  color: #252525;
+  color: #171717;
 
 }
 
@@ -551,7 +551,7 @@ footer p {
 /* ------------------------- Portfolio Page --------------------------- */
 
 .header-title {
-  background: var(--secondary-color);
+  background: var(--background-blue);
   padding: 10px 0 10px 0;
   text-align: center;
 }
@@ -564,7 +564,7 @@ footer p {
 }
 
 .footer-title {
-  background: var(--secondary-color);
+  background: var(--background-blue);
   padding: 40px 0 40px 0;
   text-align: center;
 }
@@ -580,6 +580,6 @@ footer p {
 }
 
 .cta:hover {
-  color: #fff;
-  background-color: #595959;
+  background-color: #F7DED3;
+  color: #171717;
 }
