@@ -345,8 +345,8 @@ a.nav-link {
   padding: 15px 50px 15px 50px;
   text-align: center;
   font-size: 100%;
-  background-color: #d5977d;
-  color: #fff;
+  background-color: var(--third-color);
+  color: #171717;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -569,7 +569,17 @@ footer p {
   text-align: center;
 }
 
-.footer-title a, h2:hover {
-  text-decoration: none;
-  color: var(--supplementary-dark);
+.cta {
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px;
+  background-color: var(--third-color) ;
+  color: #171717;
+  font-size: 25px;
+  font-family: Oswald;
+  letter-spacing: 5px;
+}
+
+.cta:hover {
+  color: #fff;
+  background-color: #595959;
 }
