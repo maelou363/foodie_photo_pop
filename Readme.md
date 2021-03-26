@@ -37,8 +37,10 @@ Foodie Photo Pop is a fictional food photography business that provides service 
 
 ## What does it do and what does it need to fulfill?
 
-This project is my Milestone 1 project for Code Institute. The goal of this project was to have a place that a potential customer can land on and make it easy for them to view the companies work and get in contact with. It's clean design
-that puts the portfolio of the photographer front and center. 
+The goal of the Foodie Photo Pop project was to have a place that a potential customer can land on and make it easy for them to view the companies work and get in contact with. It's clean design
+that puts the portfolio of the photographer front and center. 'Walking the talk' was my thinking for this project. You can see what the work the photographer has done and intrigue the potential customer to reach out asking about services. I specifically left the services information vague so that it would jump start a conversation between the business and potential customer.
+
+This was my first of four Milestone Projects that are a part of the Full Stack Web Development Program at The Code Insitute. That requirements were to make a responsive and static website with a minimum of three pages using HTML and CSS.
 
 
 ### Functionality of Project
@@ -51,15 +53,17 @@ that puts the portfolio of the photographer front and center.
 
 ## Main Objectives
 
-To create a seemless experience for the user. Not distracting and allow the photos to have their moment and shine.
+To create a seemless experience for the user. Not distracting and allow the photographers photo have their moment and shine. Letting the photographers work doing the speaking for itself.
 
 ## User Stories:
 
 _User:_
-* 
+* As a user I want to be able to quickly see what type of work the photographer has done and be able to easily contact so that I can get the conversation going as soon as possible.
+* As a user I'd like the information to be visually appealing and displayed only whats needed so that I can make my decision to hire the company.
+* As a user 
 
 _Developer:_
-* 
+* As a developer I wanted to be able to visually 
 
 # Design
 
