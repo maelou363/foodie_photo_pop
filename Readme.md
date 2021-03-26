@@ -1,9 +1,14 @@
 # Foodie Photo Pop
 
-Foodie Photo Pop is a fictional food photography business that provides service of creating high quality. Well it's slightly fictional. I used to run this business a couple years ago when I hired out my photography services. :) 
-
 ---
 
+## Welcome to our Foodie Photo Pop Project
+
+<p align="center">
+    <img src="assets/images/fpp-mockup.png" alt="website mockup on different devices">
+</p>
+
+---
 ## Table of Contents: 
 
 - [What does it do and what does it need to fulfill?](#what-does-it-do-and-what-does-it-need-to-fulfill)
@@ -27,18 +32,9 @@ Foodie Photo Pop is a fictional food photography business that provides service 
 
 ---
 
-## Welcome to our Foodie Photo Pop Project
-
-<p align="center">
-    <img src="assets/images/fpp-mockup.png" alt="website mockup on different devices">
-</p>
-
----
-
 ## What does it do and what does it need to fulfill?
 
-The goal of the Foodie Photo Pop project was to have a place that a potential customer can land on and make it easy for them to view the companies work and get in contact with. It's clean design
-that puts the portfolio of the photographer front and center. 'Walking the talk' was my thinking for this project. You can see what the work the photographer has done and intrigue the potential customer to reach out asking about services. I specifically left the services information vague so that it would jump start a conversation between the business and potential customer.
+The goal of the Foodie Photo Pop project was to have a place that a potential customer can land on and make it easy for them to view the companies work and get in contact with. Foodie Photo Pop is a fictional food photography business that provides service of creating high quality. Well it's slightly fictional. I used to run this business a couple years ago when I hired out my photography services. :) It's clean design that puts the portfolio of the photographer front and center. 'Walking the talk' was my thinking for this project. You can see what the work the photographer has done and intrigue the potential customer to reach out asking about services. I specifically left the services information vague so that it would jump start a conversation between the business and potential customer.
 
 This was my first of four Milestone Projects that are a part of the Full Stack Web Development Program at The Code Insitute. That requirements were to make a responsive and static website with a minimum of three pages using HTML and CSS.
 
@@ -119,10 +115,12 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 
 ## Tools Used:
 
-* W3C HTML Validator / W3C CSS Validator ~ Used to check the validity and efficiency of the code base.
-* Font Awesome Icons ~ For iconography not custom to the site.
-* Sketch ~ Used to create the wireframes.
-* tinypng.com ~ Used to compress images used throughout the site without affecting image integrity/quality.
+* [W3C Markup Validation Service](https://validator.w3.org/) - Used to check the validity and efficiency of the code base.
+* [Font Awesome](https://fontawesome.com/) - For iconography not custom to the site.
+* Sketch - Used to create the wireframes.
+* [TinyPNG](tinypng.com) - Used to compress images used throughout the site without affecting image integrity/quality.
+* [W3C Schools](https://www.w3schools.com/) - Used several times whislt building the project and used code snippet for the contact.html form section
+* [CSSScript.com](https://www.cssscript.com/create-responsive-tabs-component-using-css-radio-input/) - Used for our dynamic tabs on index.html
 
 
 
@@ -132,8 +130,8 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 
 #### Future Features:
 
-* 
-* 
+* Off-canvas navigation for mobile devices
+* I considered adding a section with reviews from previous clients. This is something we would like to add in the future.
 * 
 
 # Testing
