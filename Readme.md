@@ -1,8 +1,8 @@
-# Foodie Photo Pop
+# Welcmome to Foodie Photo Pop
 
 ---
 
-## Welcome to our Foodie Photo Pop Project
+## Code Institute: Milestone Project 1
 
 <p align="center">
     <img src="assets/images/fpp-mockup.png" alt="website mockup on different devices">
@@ -12,7 +12,6 @@
 ## Table of Contents: 
 
 - [What does it do and what does it need to fulfill?](#what-does-it-do-and-what-does-it-need-to-fulfill)
-- [Functionality of Project](#functionality-of-project)
 - [User Experience](#user-experience)
   - [User Stories](#user-stories)
   - [Design](#design)
@@ -34,18 +33,15 @@
 
 ## What does it do and what does it need to fulfill?
 
-The goal of the Foodie Photo Pop project was to have a place that a potential customer can land on and make it easy for them to view the companies work and get in contact with. Foodie Photo Pop is a fictional food photography business that provides service of creating high quality. Well it's slightly fictional. I used to run this business a couple years ago when I hired out my photography services. :) It's clean design that puts the portfolio of the photographer front and center. 'Walking the talk' was my thinking for this project. You can see what the work the photographer has done and intrigue the potential customer to reach out asking about services. I specifically left the services information vague so that it would jump start a conversation between the business and potential customer.
+The goal of the Foodie Photo Pop project was to have a place that a potential customer can land on and make it easy for them to view the companies work and get in contact with. 
+
+Foodie Photo Pop is a fictional food photography business that provides service of creating high quality. Well it's slightly fictional. I used to run this business a couple years ago when I hired out my photography services. :) 
+
+It's clean design that puts the portfolio of the photographer front and center. 'Walking the talk' was my thinking for this project. You can see what the work the photographer has done and intrigue the potential customer to reach out asking about services. I specifically left the services information vague so that it would jump start a conversation between the business and potential customer.
 
 This was my first of four Milestone Projects that are a part of the Full Stack Web Development Program at The Code Insitute. That requirements were to make a responsive and static website with a minimum of three pages using HTML and CSS.
 
 [Click here to view the project live](https://maelou363.github.io/foodie_photo_pop/)
-
-
-### Functionality of Project
-
-
-
-[Back to top](#table-of-contents)
 
 # User Experience:
 
@@ -165,7 +161,6 @@ Select the Repository from the Github Dashboard.
 
 
 ## Credits / Acknowledgements
-* [Code from CSS Script used for dynamic home page tabs](https://www.cssscript.com/create-responsive-tabs-component-using-css-radio-input/)
 * All photos used on this website were created by either myself or my friend Katie Chase from The Foodie Movement.
 
 
