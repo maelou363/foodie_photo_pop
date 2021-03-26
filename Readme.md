@@ -42,6 +42,8 @@ that puts the portfolio of the photographer front and center. 'Walking the talk'
 
 This was my first of four Milestone Projects that are a part of the Full Stack Web Development Program at The Code Insitute. That requirements were to make a responsive and static website with a minimum of three pages using HTML and CSS.
 
+[Click here to view the project live](https://maelou363.github.io/foodie_photo_pop/)
+
 
 ### Functionality of Project
 
@@ -60,7 +62,7 @@ To create a seemless experience for the user. Not distracting and allow the phot
 _User:_
 * As a user I want to be able to quickly see what type of work the photographer has done and be able to easily contact so that I can get the conversation going as soon as possible.
 * As a user I'd like the information to be visually appealing and displayed only whats needed so that I can make my decision to hire the company.
-* As a user 
+* I am a user who primarily uses desktop while looking at potential hires. I want to have a good experience on this website and easily view all the information in an aesthetic smooth way.
 
 _Developer:_
 * As a developer I wanted to be able to visually 
@@ -121,7 +123,6 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 * Font Awesome Icons ~ For iconography not custom to the site.
 * Sketch ~ Used to create the wireframes.
 * tinypng.com ~ Used to compress images used throughout the site without affecting image integrity/quality.
-* https://www.cssscript.com/create-responsive-tabs-component-using-css-radio-input/
 
 
 
@@ -166,7 +167,8 @@ Select the Repository from the Github Dashboard.
 
 
 ## Credits / Acknowledgements
-All photos used on this website were created by either myself or my friend Katie Chase.
+* [Code from CSS Script used for dynamic home page tabs](https://www.cssscript.com/create-responsive-tabs-component-using-css-radio-input/)
+* All photos used on this website were created by either myself or my friend Katie Chase from The Foodie Movement.
 
 
 
