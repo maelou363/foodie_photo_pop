@@ -47,19 +47,28 @@ This was my first of four Milestone Projects that are a part of the Full Stack W
 
 ## Main Objectives
 
-To create a seemless experience for the user. Not distracting and allow the photographers photo have their moment and shine. Letting the photographers work doing the speaking for itself.
+* To create a seemless experience for the user. Not distracting and allow the photographers photo have their moment and shine. Letting the photographers work doing the speaking for itself.
+* To make Foodie Photo Pop exude professional and credible service by creating a site that is streamlined.
+* To make it easy for users to flow through the site, view the work and get in contact.
+* To create a design that is responsive on all devices and screen sizes.
+
 
 ## User Stories:
 
 _User:_
 * As a user I want to be able to quickly see what type of work the photographer has done and be able to easily contact so that I can get the conversation going as soon as possible.
 * As a user I'd like the information to be visually appealing and displayed only whats needed so that I can make my decision to hire the company.
-* I am a user who primarily uses desktop while looking at potential hires. I want to have a good experience on this website and easily view all the information in an aesthetic smooth way.
+* I am a user who primarily uses desktop for work and will use the same device while looking at potential hires. I want to have a good experience on this website and easily view all the information in an aesthetic smooth way.
+
 
 _Developer:_
 * As a developer I wanted to be able to visually 
 
 # Design
+
+* I began the design in mind with having pages for 'About Us', 'Portfolio', 'Our Services', and 'Contact us'. As I worked through the project I realised that there was not a need for a 'Our Services' or 'About Us' separate pages. That we were able to provide all the content needed within the the dynamic tabs. It would be poor user experience to have them click and find the information is the same. We did not want to provide pricing on the site but instead guide them to the contact form to reach out regarding pricing. 
+* My decision was to provide an idea of Foodie Photo Pops services, about them and who they've worked with all on one page. From there they would be able to also reach out and contact FPP. This was my main design objective, to create a good user experience but should they want to go further into FPP work they could. 
+* As time went on I had to make a few design changes throughout. As you can see with the wireframe I initially had the 'Our Services' tab first but realised that it was a better flow and UX to have 'About Us' as an introductory to the client.
 
 ### 1. Font
 - Headings - <a href="https://fonts.google.com/specimen/Oswald?preview.text_type=custom">Oswald</a>
@@ -95,6 +104,12 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 <p align="center">
     <img src="assets/images/wireframes/mobile wireframe fpp.png" alt="mobile landing page">
 </p>
+<p align="center">
+    <img src="assets/images/wireframes/Desktop-Wireframes.jpg" alt="desktop wireframes">
+</p>
+<p align="center">
+    <img src="assets/images/wireframes/Mobile-Wireframes.jpg" alt="mobile wireframes">
+</p>
 </details>
 
 [Back to Top](#table-of-contents)
@@ -128,7 +143,7 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 
 * Off-canvas navigation for mobile devices
 * I considered adding a section with reviews from previous clients. This is something we would like to add in the future.
-* 
+* When viewing 'Our Services' have a 'Jump To' button to the contact form.
 
 # Testing
 
