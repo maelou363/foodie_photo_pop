@@ -61,9 +61,6 @@ _User:_
 * I am a user who primarily uses desktop for work and will use the same device while looking at potential hires. I want to have a good experience on this website and easily view all the information in an aesthetic smooth way.
 
 
-_Developer:_
-* As a developer I wanted to be able to visually 
-
 # Design
 
 * I began the design in mind with having pages for 'About Us', 'Portfolio', 'Our Services', and 'Contact us'. As I worked through the project I realised that there was not a need for a 'Our Services' or 'About Us' separate pages. That we were able to provide all the content needed within the the dynamic tabs. It would be poor user experience to have them click and find the information is the same. We did not want to provide pricing on the site but instead guide them to the contact form to reach out regarding pricing. 
@@ -144,16 +141,28 @@ Wireframes for this project were created using Affinity Design and Sketch for bo
 * Off-canvas navigation for mobile devices
 * I considered adding a section with reviews from previous clients. This is something we would like to add in the future.
 * When viewing 'Our Services' have a 'Jump To' button to the contact form.
+* Collapse the dynamic tabs and when click it would jump to the new relevant content with a jump-back button for better user experience.
 
 # Testing
 
+* Based on the user stories above this user has entered FPP for more information. Following the flow of the website and allows them to reach the 'Contact Us' page on of two ways to submit their information to get reach out too.
+* The user can quickly tab through the content and see who the company is, what services they provide and who've then worked with. Scrolling down they'll see previous work and have the ability to see more but if they are intrigued can easily jump down and submit their information to be contacted. 
+
+
+## Testing Responsiveness
+Manually tested the live project using google developer tools to view the project on different screen sizes. 
+Used multiple devices and feedback from family who went to the deployed site on their devices.
+
+
 ## Found Bugs & Fixes:
+* Initially I planned on having the dynamic tabs on the homescreen horizontal like on desktop but found that was too cramped and switched it over to mobile devices design sooner.
+* Navigation bar was staying collapsed on all devices no matter the size.
 
 [Back to Top](#table-of-contents)
 
 # Deployment
 
-This application was developed in multiple editors, Gitpod and vsCode, and version controlling was utilised via local (git) and online (github) repository technologies.
+This website was developed in multiple editors, Gitpod and vsCode, and version controlling was utilised via local (git) and online (github) repository technologies.
 
 Deploying this application was achieved through Github pages by:
 
@@ -176,7 +185,12 @@ Select the Repository from the Github Dashboard.
 
 
 ## Credits / Acknowledgements
+
+# Content / Media
 * All photos used on this website were created by either myself or my friend Katie Chase from The Foodie Movement.
+
+# Acknowledgements
+Thank you to everyone who have helped with support, inspiration and guidance at different stages of the project. 
 
 
 

@@ -249,6 +249,7 @@ a.nav-link {
   @media (min-width:768px) {
   
   .tab + label { width: auto; }
+  
   }
 
 
@@ -287,6 +288,15 @@ a.nav-link {
       font-size: 28px;
     }
   }
+
+@media only screen and (min-width: 700px) {
+  .col-sm-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+}
+
 
 /*------------------ Home Page Gallery ------------------------ */
 
@@ -565,7 +575,6 @@ footer p {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
